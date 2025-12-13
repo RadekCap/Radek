@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Original large images (keeping optimized versions only)
+images/IMG_5700.jpeg
+images/IMG_5718-1.jpeg
+images/IMG_6131.mov
