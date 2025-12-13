@@ -122,6 +122,47 @@ body {
     box-shadow: 0 6px 30px rgba(0, 81, 195, 0.6);
 }
 
+/* Upcoming Section */
+.upcoming-section {
+    padding: 4rem 2rem;
+    text-align: center;
+    background: var(--bg-dark);
+    border-top: 1px solid rgba(70, 147, 255, 0.2);
+}
+
+.upcoming-section h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: var(--accent-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.upcoming-song {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(0, 81, 195, 0.1);
+    border: 1px solid rgba(70, 147, 255, 0.3);
+    border-radius: 8px;
+}
+
+.upcoming-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.upcoming-desc {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+}
+
 /* Links Section */
 .links-section {
     padding: 4rem 2rem;
