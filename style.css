@@ -18,6 +18,44 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Language Toggle */
+.lang-toggle {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 1000;
+    display: flex;
+    gap: 0;
+    background: rgba(10, 10, 10, 0.8);
+    border: 1px solid rgba(70, 147, 255, 0.3);
+    border-radius: 4px;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+}
+
+.lang-btn {
+    padding: 0.5rem 0.75rem;
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lang-btn:hover {
+    color: var(--text-light);
+    background: rgba(0, 81, 195, 0.3);
+}
+
+.lang-btn.active {
+    color: var(--text-light);
+    background: var(--primary-blue);
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--bg-dark);
