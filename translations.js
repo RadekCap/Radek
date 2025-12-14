@@ -46,7 +46,7 @@ const translations = {
 
         // Timeline - Meadow Street
         msTitle: "Meadow Street",
-        msDesc: "Continuing the comeback with a new band, new energy, and unforgettable shows.",
+        msDesc: "Continuing the comeback with a new band and new energy. Thanks to insights from the book <a href=\"https://www.amazon.com/Effortless-Mastery-Liberating-Master-Musician/dp/156224003X\" target=\"_blank\" rel=\"noopener\">Effortless Mastery</a>, I experienced music on a new level and confirmed that quality of performance is non-negotiable.",
         msEvent1: "Drásovské kulturní léto",
         msEvent2: "Dačice",
 
@@ -91,7 +91,7 @@ const translations = {
         alfabeatEvent2: "Musilka - s Mírovým sborem",
         alfabeatEvent3: "Musilka - se Slepou kolejí",
         alfabeatEvent4: "s Tichou dohodou, Kernem, Pepou Nosem",
-        alfabeatEvent5: "Musilka - předkapela Mňágy a Žďorpu",
+        alfabeatEvent5: "Musilka - předkapela Mňágy a Žďorp",
         watchYouTube: "Sledovat na YouTube",
 
         // Timeline - The Quiet Years
@@ -100,12 +100,12 @@ const translations = {
 
         // Timeline - Johny Band
         johnyTitle: "Johny Band",
-        johnyDesc: "Po 25 letech mimo pódia návrat. Znovu vzít kytaru do ruky a pocítit energii živého vystoupení.",
+        johnyDesc: "Po 25 letech mimo pódia návrat. Pocítil jsem touhu znovu vzít kytaru do ruky a pocítit energii živého vystoupení.",
         johnyEvent1: "EDEN - Drnovice",
 
         // Timeline - Meadow Street
         msTitle: "Meadow Street",
-        msDesc: "Pokračování comebacku s novou kapelou, novou energií a nezapomenutelnými koncerty.",
+        msDesc: "Pokračování comebacku s novou kapelou, novou energií. Díky novým znalostem a zkušenostem z knihy <a href=\"https://www.amazon.com/Effortless-Mastery-Liberating-Master-Musician/dp/156224003X\" target=\"_blank\" rel=\"noopener\">Effortless Mastery</a> jsem si hudbu užil na nové úrovni a potvrdil si, že z kvality provedení se neslevuje.",
         msEvent1: "Drásovské kulturní léto",
         msEvent2: "Dačice",
 
