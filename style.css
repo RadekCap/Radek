@@ -468,6 +468,10 @@ footer p {
         height: 100px;
     }
 
+    .timeline-gallery img:nth-child(3) {
+        display: none;
+    }
+
     .timeline-media {
         flex-direction: column;
     }
