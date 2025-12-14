@@ -200,6 +200,16 @@ body {
     box-shadow: 0 6px 30px rgba(255, 0, 0, 0.6);
 }
 
+.cta-apple {
+    background: linear-gradient(45deg, #FA233B, #FB5C74);
+    box-shadow: 0 4px 20px rgba(250, 35, 59, 0.4);
+}
+
+.cta-apple:hover {
+    background: linear-gradient(45deg, #e01f35, #e94d65);
+    box-shadow: 0 6px 30px rgba(250, 35, 59, 0.6);
+}
+
 /* Upcoming Section */
 .upcoming-section {
     padding: 4rem 2rem;
