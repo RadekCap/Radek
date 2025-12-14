@@ -10,6 +10,7 @@ const translations = {
         releaseInfo: "Out Now | Available on 23 platforms",
         ctaSpotify: "Spotify",
         ctaYTMusic: "YouTube Music",
+        ctaApple: "Apple Music",
 
         // Upcoming
         comingSoon: "Coming Soon",
@@ -70,6 +71,7 @@ const translations = {
         releaseInfo: "Právě vyšlo | K dispozici na 23 platformách",
         ctaSpotify: "Spotify",
         ctaYTMusic: "YouTube Music",
+        ctaApple: "Apple Music",
 
         // Upcoming
         comingSoon: "Již brzy",
