@@ -8,7 +8,8 @@ const translations = {
 
         // Hero
         releaseInfo: "Out Now | Available on 23 platforms",
-        ctaButton: "Listen on Spotify",
+        ctaSpotify: "Spotify",
+        ctaYTMusic: "YouTube Music",
 
         // Upcoming
         comingSoon: "Coming Soon",
@@ -67,7 +68,8 @@ const translations = {
 
         // Hero
         releaseInfo: "Právě vyšlo | K dispozici na 23 platformách",
-        ctaButton: "Poslechnout na Spotify",
+        ctaSpotify: "Spotify",
+        ctaYTMusic: "YouTube Music",
 
         // Upcoming
         comingSoon: "Již brzy",

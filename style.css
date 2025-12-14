@@ -143,14 +143,24 @@ body {
     letter-spacing: 0.2em;
 }
 
+/* Streaming Buttons */
+.streaming-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .cta-button {
-    display: inline-block;
-    padding: 1rem 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.875rem 1.5rem;
     background: var(--primary-blue);
     color: var(--text-light);
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -159,10 +169,35 @@ body {
     box-shadow: 0 4px 20px rgba(0, 81, 195, 0.4);
 }
 
+.cta-button svg {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
 .cta-button:hover {
-    background: var(--dark-blue);
     transform: translateY(-2px);
     box-shadow: 0 6px 30px rgba(0, 81, 195, 0.6);
+}
+
+.cta-spotify {
+    background: #1DB954;
+    box-shadow: 0 4px 20px rgba(29, 185, 84, 0.4);
+}
+
+.cta-spotify:hover {
+    background: #1aa34a;
+    box-shadow: 0 6px 30px rgba(29, 185, 84, 0.6);
+}
+
+.cta-ytmusic {
+    background: #FF0000;
+    box-shadow: 0 4px 20px rgba(255, 0, 0, 0.4);
+}
+
+.cta-ytmusic:hover {
+    background: #cc0000;
+    box-shadow: 0 6px 30px rgba(255, 0, 0, 0.6);
 }
 
 /* Upcoming Section */
