@@ -522,8 +522,17 @@ footer p {
     }
 
     .cta-button {
-        padding: 0.875rem 2rem;
+        padding: 1rem;
         font-size: 1rem;
+    }
+
+    .cta-button span {
+        display: none;
+    }
+
+    .cta-button svg {
+        width: 28px;
+        height: 28px;
     }
 
     .links-section {
