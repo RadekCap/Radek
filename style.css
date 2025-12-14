@@ -143,6 +143,53 @@ body {
     letter-spacing: 0.2em;
 }
 
+/* Upcoming Inline (in hero) */
+.upcoming-inline {
+    margin: 1.5rem 0 2rem;
+    padding: 1rem 1.5rem;
+    background: rgba(0, 81, 195, 0.15);
+    border: 1px solid rgba(70, 147, 255, 0.3);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.upcoming-label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--accent-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.25rem;
+}
+
+.upcoming-title-inline {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.teaser-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    color: var(--accent-blue);
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: color 0.3s ease;
+}
+
+.teaser-link:hover {
+    color: var(--text-light);
+}
+
+.teaser-link svg {
+    width: 16px;
+    height: 16px;
+}
+
 /* Streaming Buttons */
 .streaming-buttons {
     display: flex;
