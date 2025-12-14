@@ -552,13 +552,17 @@ footer p {
     }
 
     .streaming-buttons {
-        max-width: 200px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.75rem;
+        max-width: 220px;
         margin: 0 auto;
     }
 
     .cta-button {
-        padding: 1rem;
+        padding: 0.875rem;
         font-size: 1rem;
+        justify-content: center;
     }
 
     .cta-button span {
