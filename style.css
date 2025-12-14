@@ -551,6 +551,11 @@ footer p {
         min-height: 100vh;
     }
 
+    .streaming-buttons {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
     .cta-button {
         padding: 1rem;
         font-size: 1rem;
