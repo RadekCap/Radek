@@ -12,6 +12,7 @@ const translations = {
         ctaYTMusic: "YouTube Music",
         ctaApple: "Apple Music",
         ctaAmazon: "Amazon Music",
+        ctaDeezer: "Deezer",
 
         // Upcoming
         comingSoon: "Coming Soon",
@@ -74,6 +75,7 @@ const translations = {
         ctaYTMusic: "YouTube Music",
         ctaApple: "Apple Music",
         ctaAmazon: "Amazon Music",
+        ctaDeezer: "Deezer",
 
         // Upcoming
         comingSoon: "Již brzy",

@@ -220,6 +220,16 @@ body {
     box-shadow: 0 6px 30px rgba(255, 153, 0, 0.6);
 }
 
+.cta-deezer {
+    background: #A238FF;
+    box-shadow: 0 4px 20px rgba(162, 56, 255, 0.4);
+}
+
+.cta-deezer:hover {
+    background: #8a2be2;
+    box-shadow: 0 6px 30px rgba(162, 56, 255, 0.6);
+}
+
 /* Upcoming Section */
 .upcoming-section {
     padding: 4rem 2rem;
