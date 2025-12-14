@@ -210,6 +210,16 @@ body {
     box-shadow: 0 6px 30px rgba(250, 35, 59, 0.6);
 }
 
+.cta-amazon {
+    background: #FF9900;
+    box-shadow: 0 4px 20px rgba(255, 153, 0, 0.4);
+}
+
+.cta-amazon:hover {
+    background: #e68a00;
+    box-shadow: 0 6px 30px rgba(255, 153, 0, 0.6);
+}
+
 /* Upcoming Section */
 .upcoming-section {
     padding: 4rem 2rem;
