@@ -2,9 +2,9 @@ const translations = {
     en: {
         // Meta
         pageTitle: "Radek - Official Artist Page",
-        metaDescription: "Radek - Original instrumental rock music. Rock Majesty out now, One Beautiful Day at Litomysl coming soon.",
+        metaDescription: "Radek - Original instrumental rock music. Rock Majesty out now, One Beautiful Day in Litomyšl coming soon.",
         ogTitle: "Radek - Official Artist Page",
-        ogDescription: "Original instrumental rock music. Rock Majesty out now, One Beautiful Day at Litomysl coming soon.",
+        ogDescription: "Original instrumental rock music. Rock Majesty out now, One Beautiful Day in Litomyšl coming soon.",
 
         // Hero
         releaseInfo: "Out Now | Available on 23 platforms",
@@ -58,7 +58,7 @@ const translations = {
         // Timeline - Solo
         soloTitle: "Solo Journey",
         soloDesc1: "Stepping away from band performances to focus on personal growth as a musician. Over a year dedicated to mastering songs by Extreme, one of the greatest influences. This journey of learning and rediscovery sparked the creation of original music.",
-        soloDesc2: "The result: <strong>Rock Majesty</strong> and <strong>One Beautiful Day at Litomysl</strong> — the first original compositions, marking the beginning of a new chapter.",
+        soloDesc2: "The result: <strong>Rock Majesty</strong> and <strong>One Beautiful Day in Litomyšl</strong> — the first original compositions, marking the beginning of a new chapter.",
 
         // Footer
         copyright: "© 2025 Radek. All rights reserved."
@@ -66,9 +66,9 @@ const translations = {
     cs: {
         // Meta
         pageTitle: "Radek - Oficiální stránka umělce",
-        metaDescription: "Radek - Originální instrumentální rocková hudba. Rock Majesty právě vyšlo, One Beautiful Day at Litomysl již brzy.",
+        metaDescription: "Radek - Originální instrumentální rocková hudba. Rock Majesty právě vyšlo, One Beautiful Day in Litomyšl již brzy.",
         ogTitle: "Radek - Oficiální stránka umělce",
-        ogDescription: "Originální instrumentální rocková hudba. Rock Majesty právě vyšlo, One Beautiful Day at Litomysl již brzy.",
+        ogDescription: "Originální instrumentální rocková hudba. Rock Majesty právě vyšlo, One Beautiful Day in Litomyšl již brzy.",
 
         // Hero
         releaseInfo: "Právě vyšlo | K dispozici na 23 platformách",
@@ -122,7 +122,7 @@ const translations = {
         // Timeline - Solo
         soloTitle: "Sólová cesta",
         soloDesc1: "Odklon od kapelního hraní se zaměřením na osobní růst jako muzikant. Více než rok věnovaný zvládnutí skladeb od Extreme, jednoho z největších vlivů. Tato cesta učení a znovuobjevování podnítila tvorbu originální hudby.",
-        soloDesc2: "Výsledek: <strong>Rock Majesty</strong> a <strong>One Beautiful Day at Litomysl</strong> — první originální skladby, které znamenají začátek nové kapitoly.",
+        soloDesc2: "Výsledek: <strong>Rock Majesty</strong> a <strong>One Beautiful Day in Litomyšl</strong> — první originální skladby, které znamenají začátek nové kapitoly.",
 
         // Footer
         copyright: "© 2025 Radek. Všechna práva vyhrazena."
