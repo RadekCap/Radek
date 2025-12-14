@@ -36,7 +36,7 @@ const translations = {
         alfabeatEvent1: "Semilaso - opening for Nšo-či",
         alfabeatEvent2: "Musilka - with Mírový sbor",
         alfabeatEvent3: "Musilka - with Slepá kolej",
-        alfabeatEvent4: "with Tichá dohoda, Kern, Pepa Nos",
+        alfabeatEvent4: "with Tichá dohoda, Kern, Pepa Nos, Bára Basiková",
         alfabeatEvent5: "Musilka - opening for Mňága a Žďorp",
         watchYouTube: "Watch on YouTube",
 
@@ -100,7 +100,7 @@ const translations = {
         alfabeatEvent1: "Semilaso - předkapela Nšo-či",
         alfabeatEvent2: "Musilka - s Mírovým sborem",
         alfabeatEvent3: "Musilka - se Slepou kolejí",
-        alfabeatEvent4: "s Tichou dohodou, Kernem, Pepou Nosem",
+        alfabeatEvent4: "s Tichou dohodou, Kernem, Pepou Nosem, Bárou Basikovou",
         alfabeatEvent5: "Musilka - předkapela Mňágy a Žďorp",
         watchYouTube: "Sledovat na YouTube",
 
