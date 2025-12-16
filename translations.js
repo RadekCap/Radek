@@ -28,7 +28,7 @@ const translations = {
         litdDesc: "The beginning of the musical journey. First steps on stage as a guitarist.",
         litdEvent1: "Terč - opening for Memory of Jesus",
         litdEvent2: "Golf club",
-        litdNote: "Recordings coming soon",
+        litdNote: "Five songs from original 90s demos have been remastered with updated lyrics",
 
         // Timeline - The Alfa Beat
         alfabeatTitle: "The Alfa Beat",
@@ -51,14 +51,15 @@ const translations = {
 
         // Timeline - Meadow Street
         msTitle: "Meadow Street",
-        msDesc: "Continuing the comeback with a new band and new energy. Thanks to insights from the book <a href=\"https://www.amazon.com/Effortless-Mastery-Liberating-Master-Musician/dp/156224003X\" target=\"_blank\" rel=\"noopener\">Effortless Mastery</a>, I experienced music on a new level and confirmed that quality of performance is non-negotiable.",
+        msDesc: "Continuing the comeback with a new band and new energy.",
         msEvent1: "Drásovské kulturní léto",
         msEvent2: "Dačice",
 
         // Timeline - Solo
         soloTitle: "Solo Journey",
-        soloDesc1: "Stepping away from band performances to focus on personal growth as a musician. Over a year dedicated to mastering songs by Extreme, one of the greatest influences. This journey of learning and rediscovery sparked the creation of original music.",
-        soloDesc2: "The result: <strong>Rock Majesty</strong> and <strong>One Beautiful Day in Litomyšl</strong> — the first original compositions, marking the beginning of a new chapter.",
+        soloDesc1: "Thanks to insights from the book <a href=\"https://www.amazon.com/Effortless-Mastery-Liberating-Master-Musician/dp/156224003X\" target=\"_blank\" rel=\"noopener\">Effortless Mastery</a>, I experienced music on a new level and confirmed that quality of performance is non-negotiable.",
+        soloDesc2: "Stepping away from band performances to focus on personal growth as a musician. Over a year dedicated to mastering songs by Extreme, one of the greatest influences. This journey of learning and rediscovery sparked the creation of original music.",
+        soloDesc3: "The result: <strong>Rock Majesty</strong> and <strong>One Beautiful Day in Litomyšl</strong> — the first original compositions, marking the beginning of a new chapter.",
 
         // Footer
         copyright: "© 2025 Radek. All rights reserved."
@@ -92,7 +93,7 @@ const translations = {
         litdDesc: "Začátek hudební cesty. První kroky na pódiu jako kytarista.",
         litdEvent1: "Terč - předkapela Memory of Jesus",
         litdEvent2: "Golf club",
-        litdNote: "Nahrávky již brzy",
+        litdNote: "Pět skladeb z původních dem z 90. let bylo remasterováno s novými texty",
 
         // Timeline - The Alfa Beat
         alfabeatTitle: "The Alfa Beat",
@@ -115,14 +116,15 @@ const translations = {
 
         // Timeline - Meadow Street
         msTitle: "Meadow Street",
-        msDesc: "Pokračování comebacku s novou kapelou, novou energií. Díky novým znalostem a zkušenostem z knihy <a href=\"https://www.amazon.com/Effortless-Mastery-Liberating-Master-Musician/dp/156224003X\" target=\"_blank\" rel=\"noopener\">Effortless Mastery</a> jsem si hudbu užil na nové úrovni a potvrdil si, že z kvality provedení se neslevuje.",
+        msDesc: "Pokračování comebacku s novou kapelou, novou energií.",
         msEvent1: "Drásovské kulturní léto",
         msEvent2: "Dačice",
 
         // Timeline - Solo
         soloTitle: "Sólová cesta",
-        soloDesc1: "Odklon od kapelního hraní se zaměřením na osobní růst jako muzikant. Více než rok věnovaný zvládnutí skladeb od Extreme, jednoho z největších vlivů. Tato cesta učení a znovuobjevování podnítila tvorbu originální hudby.",
-        soloDesc2: "Výsledek: <strong>Rock Majesty</strong> a <strong>One Beautiful Day in Litomyšl</strong> — první originální skladby, které znamenají začátek nové kapitoly.",
+        soloDesc1: "Díky poznatkům z knihy <a href=\"https://www.amazon.com/Effortless-Mastery-Liberating-Master-Musician/dp/156224003X\" target=\"_blank\" rel=\"noopener\">Effortless Mastery</a> jsem si hudbu užil na nové úrovni a potvrdil si, že z kvality provedení se neslevuje.",
+        soloDesc2: "Odklon od kapelního hraní se zaměřením na osobní růst jako muzikant. Více než rok věnovaný zvládnutí skladeb od Extreme, jednoho z největších vlivů. Tato cesta učení a znovuobjevování podnítila tvorbu originální hudby.",
+        soloDesc3: "Výsledek: <strong>Rock Majesty</strong> a <strong>One Beautiful Day in Litomyšl</strong> — první originální skladby, které znamenají začátek nové kapitoly.",
 
         // Footer
         copyright: "© 2025 Radek. Všechna práva vyhrazena."
