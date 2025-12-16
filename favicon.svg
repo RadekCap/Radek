@@ -1,28 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- Simple electric guitar silhouette -->
+  <!-- Electric guitar silhouette - diagonal orientation -->
 
   <!-- Headstock -->
-  <rect x="14" y="1" width="4" height="4" rx="1" fill="#4693ff"/>
+  <path d="M25 2c1 0 2 1 2 2v3c0 .5-.5 1-1 1h-1v1h1c.5 0 1 .5 1 1v1c0 1-1 2-2 2h-1l-1 1" fill="#000"/>
 
-  <!-- Tuning pegs -->
-  <circle cx="12.5" cy="2.5" r="1.2" fill="#4693ff"/>
-  <circle cx="12.5" cy="4.5" r="1.2" fill="#4693ff"/>
-  <circle cx="19.5" cy="2.5" r="1.2" fill="#4693ff"/>
-  <circle cx="19.5" cy="4.5" r="1.2" fill="#4693ff"/>
+  <!-- Neck with frets -->
+  <rect x="18" y="8" width="4" height="12" rx="0.5" fill="#000" transform="rotate(45 20 14)"/>
 
-  <!-- Neck -->
-  <rect x="14.5" y="5" width="3" height="11" fill="#4693ff"/>
+  <!-- Fret markers (white) -->
+  <rect x="19" y="10" width="2" height="0.8" fill="#fff" transform="rotate(45 20 10)"/>
+  <rect x="19" y="12" width="2" height="0.8" fill="#fff" transform="rotate(45 20 12)"/>
+  <rect x="19" y="14" width="2" height="0.8" fill="#fff" transform="rotate(45 20 14)"/>
+  <rect x="19" y="16" width="2" height="0.8" fill="#fff" transform="rotate(45 20 16)"/>
 
-  <!-- Body - classic electric guitar shape -->
-  <ellipse cx="16" cy="23" rx="9" ry="7" fill="#4693ff"/>
+  <!-- Guitar body -->
+  <ellipse cx="10" cy="22" rx="8" ry="6" fill="#000"/>
 
-  <!-- Upper cutaway (left horn) -->
-  <ellipse cx="9" cy="17" rx="3" ry="4" fill="#4693ff"/>
+  <!-- Upper horn -->
+  <ellipse cx="7" cy="16" rx="3" ry="4" fill="#000"/>
 
-  <!-- Upper cutaway (right horn) -->
-  <ellipse cx="23" cy="17" rx="3" ry="4" fill="#4693ff"/>
+  <!-- Lower cutaway -->
+  <ellipse cx="15" cy="18" rx="2.5" ry="3.5" fill="#000"/>
 
-  <!-- Sound hole / pickup area (dark) -->
-  <rect x="12" y="21" width="8" height="2" rx="1" fill="#0a0a0a"/>
-  <rect x="12" y="24" width="8" height="2" rx="1" fill="#0a0a0a"/>
+  <!-- Pickguard (white) -->
+  <path d="M6 20 Q8 18 10 19 Q9 22 6 23 Z" fill="#fff"/>
+
+  <!-- Pickup (white rectangle) -->
+  <rect x="7" y="23" width="5" height="1.5" rx="0.5" fill="#fff"/>
+
+  <!-- Bridge dot -->
+  <circle cx="8" cy="26" r="0.8" fill="#fff"/>
 </svg>
