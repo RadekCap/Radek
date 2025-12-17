@@ -74,12 +74,12 @@ body {
 /* Hero Section */
 .hero {
     position: relative;
-    height: 100vh;
-    min-height: 600px;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    overflow: visible;
+    padding: 4rem 0 2rem;
 }
 
 .hero-image {
@@ -814,7 +814,34 @@ footer p {
 /* Responsive */
 @media (max-width: 768px) {
     .hero {
-        min-height: 100vh;
+        min-height: auto;
+        padding: 3rem 0 2rem;
+    }
+
+    .hero-content {
+        padding: 1rem;
+    }
+
+    .artist-name {
+        font-size: clamp(2.5rem, 12vw, 4rem);
+    }
+
+    .release-section {
+        padding: 1rem 1.25rem;
+        margin: 1rem 0;
+    }
+
+    .featured-cover {
+        width: 60px;
+        height: 60px;
+    }
+
+    .featured-title {
+        font-size: 1.5rem;
+    }
+
+    .section-title {
+        font-size: 1.25rem;
     }
 
     .streaming-buttons {
