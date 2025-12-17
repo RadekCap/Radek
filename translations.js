@@ -65,7 +65,7 @@ const translations = {
         soloTitle: "Solo Journey",
         soloDesc1: "Thanks to insights from the book <a href=\"https://www.amazon.com/Effortless-Mastery-Liberating-Master-Musician/dp/156224003X\" target=\"_blank\" rel=\"noopener\">Effortless Mastery</a>, I experienced music on a new level and confirmed that quality of performance is non-negotiable.",
         soloDesc2: "Stepping away from band performances to focus on personal growth as a musician. Over a year dedicated to mastering songs by Extreme, one of the greatest influences. This journey of learning and rediscovery sparked the creation of original music.",
-        soloDesc3: "The result: <strong>Rock Majesty</strong> and <strong>One Beautiful Day in Litomyšl</strong> — the first original compositions, marking the beginning of a new chapter.",
+        soloDesc3: "The result: <a href=\"https://open.spotify.com/track/2WOCaDA9mxoJp5DJkYSJ7k\" target=\"_blank\" rel=\"noopener\"><strong>Rock Majesty</strong></a> and <a href=\"https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTA1ODE0NjM5NzMwMTI4?story_media_id=3783426364133660895&igsh=MW5pY3Z3dWtnYTF0dg==\" target=\"_blank\" rel=\"noopener\"><strong>One Beautiful Day in Litomyšl</strong></a> — the first original compositions, marking the beginning of a new chapter.",
 
         // Footer
         totalVisits: "Total visits:",
@@ -137,7 +137,7 @@ const translations = {
         soloTitle: "Sólová cesta",
         soloDesc1: "Díky poznatkům z knihy <a href=\"https://www.amazon.com/Effortless-Mastery-Liberating-Master-Musician/dp/156224003X\" target=\"_blank\" rel=\"noopener\">Effortless Mastery</a> jsem si hudbu užil na nové úrovni a potvrdil si, že z kvality provedení se neslevuje.",
         soloDesc2: "Odklon od kapelního hraní se zaměřením na osobní růst jako muzikant. Více než rok věnovaný zvládnutí skladeb od Extreme, jednoho z největších vlivů. Tato cesta učení a znovuobjevování podnítila tvorbu originální hudby.",
-        soloDesc3: "Výsledek: <strong>Rock Majesty</strong> a <strong>One Beautiful Day in Litomyšl</strong> — první originální skladby, které znamenají začátek nové kapitoly.",
+        soloDesc3: "Výsledek: <a href=\"https://open.spotify.com/track/2WOCaDA9mxoJp5DJkYSJ7k\" target=\"_blank\" rel=\"noopener\"><strong>Rock Majesty</strong></a> a <a href=\"https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MTA1ODE0NjM5NzMwMTI4?story_media_id=3783426364133660895&igsh=MW5pY3Z3dWtnYTF0dg==\" target=\"_blank\" rel=\"noopener\"><strong>One Beautiful Day in Litomyšl</strong></a> — první originální skladby, které znamenají začátek nové kapitoly.",
 
         // Footer
         totalVisits: "Celkem návštěv:",
