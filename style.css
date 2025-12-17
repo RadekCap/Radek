@@ -334,19 +334,24 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
-    color: var(--accent-blue);
+    padding: 0.5rem 1rem;
+    color: var(--text-light);
     text-decoration: none;
     font-size: 0.875rem;
-    transition: color 0.3s ease;
+    background: rgba(0, 81, 195, 0.2);
+    border: 1px solid var(--primary-blue);
+    border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
 .teaser-link:hover {
-    color: var(--text-light);
+    background: var(--primary-blue);
+    box-shadow: 0 4px 15px rgba(0, 81, 195, 0.4);
 }
 
 .teaser-link svg {
-    width: 16px;
-    height: 16px;
+    width: 18px;
+    height: 18px;
 }
 
 /* New Release Boxes */
