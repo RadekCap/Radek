@@ -190,18 +190,18 @@ document.addEventListener('DOMContentLoaded', () => {
     initVisitsCounter();
 });
 
-// Visits Counter using hits.seeyoufarm.com
+// Visits Counter using visitor-badge.laobi.icu
 function initVisitsCounter() {
     const counterElement = document.getElementById('visits-count');
     if (!counterElement) return;
 
-    fetch('https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fradek.band&count_bg=%230051c3&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=false')
+    fetch('https://visitor-badge.laobi.icu/badge?page_id=radek.band')
         .then(response => response.text())
         .then(svg => {
-            const match = svg.match(/>(\d+)\s*\/\s*(\d+)</);
-            if (match) {
-                const totalCount = match[2];
-                counterElement.textContent = totalCount;
+            const matches = svg.match(/>(\d+)</g);
+            if (matches && matches.length >= 2) {
+                const count = matches[1].replace(/[><]/g, '');
+                counterElement.textContent = count;
             } else {
                 counterElement.textContent = '—';
             }
