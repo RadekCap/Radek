@@ -445,10 +445,19 @@ body {
 
 /* Streaming Buttons */
 .streaming-buttons {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.streaming-buttons .cta-button:nth-child(odd) {
+    justify-self: end;
+}
+
+.streaming-buttons .cta-button:nth-child(even) {
+    justify-self: start;
 }
 
 .cta-button {
