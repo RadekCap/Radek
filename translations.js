@@ -33,7 +33,7 @@ const translations = {
         litdDesc: "The beginning of the musical journey. First steps on stage as a guitarist.",
         litdEvent1: "Terč - opening for Memory of Jesus",
         litdEvent2: "Golf club",
-        litdNote: "<strong>Folded Galaxies</strong><br>The songs on this album originated as demos recorded in the late 1990s with the band Light in the Darkness. In 2025, I revisited these recordings, rebuilt them from the ground up, and completed them with new lyrics and vocals. Bringing them back felt like opening an old jacket and finding a galaxy hidden in the fold. Deep thanks to Víťa and Michal, who co-created the original demos and kindly agreed to their reuse and transformation into this album.",
+        litdNote: "The songs on this album originated as demos recorded in the late 1990s with the band Light in the Darkness. In 2025, I revisited these recordings, rebuilt them from the ground up, and completed them with new lyrics and vocals. Bringing them back felt like opening an old jacket and finding a galaxy hidden in the fold. Deep thanks to Víťa and Michal, who co-created the original demos and kindly agreed to their reuse and transformation into this album.",
 
         // Timeline - The Alfa Beat
         alfabeatTitle: "The Alfa Beat",
@@ -105,7 +105,7 @@ const translations = {
         litdDesc: "Začátek hudební cesty. První kroky na pódiu jako kytarista.",
         litdEvent1: "Terč - předkapela Memory of Jesus",
         litdEvent2: "Golf club",
-        litdNote: "<strong>Folded Galaxies</strong><br>Skladby na tomto albu vznikly jako dema nahraná koncem 90. let s kapelou Světlo ve tmě. V roce 2025 jsem se k těmto nahrávkám vrátil, přestavěl je od základů a dokončil s novými texty a vokály. Jejich oživení bylo jako otevřít starou bundu a najít v záhybu ukrytou galaxii. Velké díky Víťovi a Michalovi, kteří se podíleli na původních demech a laskavě souhlasili s jejich použitím a přeměnou v toto album.",
+        litdNote: "Skladby na tomto albu vznikly jako dema nahraná koncem 90. let s kapelou Světlo ve tmě. V roce 2025 jsem se k těmto nahrávkám vrátil, přestavěl je od základů a dokončil s novými texty a vokály. Jejich oživení bylo jako otevřít starou bundu a najít v záhybu ukrytou galaxii. Velké díky Víťovi a Michalovi, kteří se podíleli na původních demech a laskavě souhlasili s jejich použitím a přeměnou v toto album.",
 
         // Timeline - The Alfa Beat
         alfabeatTitle: "The Alfa Beat",

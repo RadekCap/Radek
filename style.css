@@ -218,7 +218,7 @@ body {
 }
 
 .spotify-embed {
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -733,22 +733,32 @@ body {
 
 .album-note {
     display: flex;
+    flex-direction: column;
     gap: 1rem;
-    align-items: flex-start;
+    align-items: center;
     margin: 1rem 0;
+    text-align: center;
+}
+
+.album-note-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--accent-blue);
+    margin: 0;
 }
 
 .album-note-cover {
-    width: 100px;
-    height: 100px;
-    border-radius: 6px;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
     object-fit: cover;
-    flex-shrink: 0;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 .album-note .timeline-note {
     margin: 0;
+    text-align: left;
 }
 
 /* Timeline Gallery */
