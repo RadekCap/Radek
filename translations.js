@@ -44,6 +44,7 @@ const translations = {
         alfabeatEvent4: "with Tichá dohoda, Kern, Pepa Nos, Bára Basiková",
         alfabeatEvent5: "Musilka - opening for Mňága a Žďorp",
         watchYouTube: "Watch on YouTube",
+        listenSpotify: "Listen on Spotify",
 
         // Timeline - The Quiet Years
         quietTitle: "The Quiet Years",
@@ -115,6 +116,7 @@ const translations = {
         alfabeatEvent4: "s Tichou dohodou, Kernem, Pepou Nosem, Bárou Basikovou",
         alfabeatEvent5: "Musilka - předkapela Mňágy a Žďorp",
         watchYouTube: "Sledovat na YouTube",
+        listenSpotify: "Poslechnout na Spotify",
 
         // Timeline - The Quiet Years
         quietTitle: "Tiché roky",
