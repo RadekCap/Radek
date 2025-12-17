@@ -62,6 +62,7 @@ const translations = {
         soloDesc3: "The result: <strong>Rock Majesty</strong> and <strong>One Beautiful Day in Litomyšl</strong> — the first original compositions, marking the beginning of a new chapter.",
 
         // Footer
+        totalVisits: "Total visits:",
         copyright: "© 2025 Radek. All rights reserved."
     },
     cs: {
@@ -127,6 +128,7 @@ const translations = {
         soloDesc3: "Výsledek: <strong>Rock Majesty</strong> a <strong>One Beautiful Day in Litomyšl</strong> — první originální skladby, které znamenají začátek nové kapitoly.",
 
         // Footer
+        totalVisits: "Celkem návštěv:",
         copyright: "© 2025 Radek. Všechna práva vyhrazena."
     }
 };
@@ -185,4 +187,26 @@ function toggleLanguage(lang) {
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
     applyTranslations(currentLang);
+    initVisitsCounter();
 });
+
+// Visits Counter using hits.seeyoufarm.com
+function initVisitsCounter() {
+    const counterElement = document.getElementById('visits-count');
+    if (!counterElement) return;
+
+    fetch('https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fradek.band&count_bg=%230051c3&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=visits&edge_flat=false')
+        .then(response => response.text())
+        .then(svg => {
+            const match = svg.match(/>(\d+)\s*\/\s*(\d+)</);
+            if (match) {
+                const totalCount = match[2];
+                counterElement.textContent = totalCount;
+            } else {
+                counterElement.textContent = '—';
+            }
+        })
+        .catch(() => {
+            counterElement.textContent = '—';
+        });
+}
