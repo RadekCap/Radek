@@ -21,10 +21,9 @@ const translations = {
         watchTeaser: "Watch the Teaser",
 
         // Release Sections
-        releasingToday: "Releasing Today",
+        newRelease: "New Release",
         outNow: "Out Now",
         albumLabel: "Album",
-        presaveNow: "Pre-save Now",
 
         // History
         theJourney: "The Journey",
@@ -93,10 +92,9 @@ const translations = {
         watchTeaser: "Sledovat ukázku",
 
         // Release Sections
-        releasingToday: "Vychází dnes",
+        newRelease: "Novinka",
         outNow: "Právě vyšlo",
         albumLabel: "Album",
-        presaveNow: "Pre-save",
 
         // History
         theJourney: "Příběh",

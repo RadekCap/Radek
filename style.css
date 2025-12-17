@@ -180,9 +180,15 @@ body {
     margin-bottom: 1rem;
 }
 
-.badge-releasing {
-    background: #1DB954;
+.badge-new {
+    background: linear-gradient(135deg, #1DB954, #1ed760);
     color: #fff;
+    animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 5px rgba(29, 185, 84, 0.5); }
+    50% { box-shadow: 0 0 15px rgba(29, 185, 84, 0.8); }
 }
 
 .badge-out {
@@ -200,7 +206,20 @@ body {
     font-size: clamp(1.25rem, 4vw, 2rem);
     font-weight: 600;
     color: var(--text-light);
+    margin-bottom: 0.25rem;
+}
+
+.section-subtitle {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
     margin-bottom: 1rem;
+}
+
+.spotify-embed {
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 /* Featured Release (Folded Galaxies) */
