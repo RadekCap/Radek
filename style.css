@@ -190,6 +190,100 @@ body {
     height: 16px;
 }
 
+/* New Release Boxes */
+.new-release-boxes {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1.5rem 0 2rem;
+}
+
+.release-box {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.5rem;
+    background: rgba(0, 81, 195, 0.15);
+    border: 1px solid rgba(70, 147, 255, 0.3);
+    border-radius: 8px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+.release-box:hover {
+    background: rgba(0, 81, 195, 0.25);
+    border-color: rgba(70, 147, 255, 0.5);
+    transform: translateY(-2px);
+}
+
+.release-cover {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.release-info-box {
+    text-align: left;
+}
+
+.release-label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--accent-blue);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.25rem;
+}
+
+.release-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-light);
+    margin-bottom: 0.25rem;
+}
+
+.release-date {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.presave-box {
+    background: rgba(29, 185, 84, 0.15);
+    border-color: rgba(29, 185, 84, 0.4);
+}
+
+.presave-box:hover {
+    background: rgba(29, 185, 84, 0.25);
+    border-color: rgba(29, 185, 84, 0.6);
+}
+
+.presave-box svg {
+    color: #1DB954;
+    flex-shrink: 0;
+}
+
+.presave-info {
+    text-align: left;
+}
+
+.presave-label {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1DB954;
+    margin-bottom: 0.25rem;
+}
+
+.presave-cta {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
 /* Streaming Buttons */
 .streaming-buttons {
     display: flex;

@@ -20,6 +20,12 @@ const translations = {
         upcomingDesc: "New single arriving soon on all platforms",
         watchTeaser: "Watch the Teaser",
 
+        // New Release - Folded Galaxies
+        newAlbum: "New Album",
+        releaseDate: "December 17, 2025",
+        spotifyPresave: "Spotify Pre-save",
+        presaveCta: "Be the first to listen!",
+
         // History
         theJourney: "The Journey",
 
@@ -85,6 +91,12 @@ const translations = {
         comingSoon: "Již brzy",
         upcomingDesc: "Nový singl brzy na všech platformách",
         watchTeaser: "Sledovat ukázku",
+
+        // New Release - Folded Galaxies
+        newAlbum: "Nové album",
+        releaseDate: "17. prosince 2025",
+        spotifyPresave: "Spotify Pre-save",
+        presaveCta: "Buďte první, kdo uslyší!",
 
         // History
         theJourney: "Příběh",
