@@ -476,6 +476,7 @@ body {
     border-radius: 4px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 20px rgba(0, 81, 195, 0.4);
+    white-space: nowrap;
 }
 
 .cta-button svg {
