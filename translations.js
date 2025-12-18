@@ -216,10 +216,9 @@ function initVisitsCounter() {
     fetch('https://visitor-badge.laobi.icu/badge?page_id=radek.band')
         .then(response => response.text())
         .then(svg => {
-            const matches = svg.match(/>(\d+)</g);
-            if (matches && matches.length >= 2) {
-                const count = matches[1].replace(/[><]/g, '');
-                counterElement.textContent = count;
+            const matches = svg.match(/>(\d+)</);
+            if (matches && matches[1]) {
+                counterElement.textContent = matches[1];
             } else {
                 counterElement.textContent = '—';
             }
