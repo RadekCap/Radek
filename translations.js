@@ -25,6 +25,9 @@ const translations = {
         outNow: "Out Now",
         albumLabel: "Album",
 
+        // Guitar Rig
+        guitarRig: "Guitar Rig",
+
         // History
         theJourney: "The Journey",
 
@@ -96,6 +99,9 @@ const translations = {
         newRelease: "Novinka",
         outNow: "Právě vyšlo",
         albumLabel: "Album",
+
+        // Guitar Rig
+        guitarRig: "Kytarová výbava",
 
         // History
         theJourney: "Příběh",
