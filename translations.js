@@ -205,25 +205,4 @@ function toggleLanguage(lang) {
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
     applyTranslations(currentLang);
-    initVisitsCounter();
 });
-
-// Visits Counter using visitor-badge.laobi.icu
-function initVisitsCounter() {
-    const counterElement = document.getElementById('visits-count');
-    if (!counterElement) return;
-
-    fetch('https://visitor-badge.laobi.icu/badge?page_id=radek.band')
-        .then(response => response.text())
-        .then(svg => {
-            const matches = svg.match(/>(\d+)</);
-            if (matches && matches[1]) {
-                counterElement.textContent = matches[1];
-            } else {
-                counterElement.textContent = '—';
-            }
-        })
-        .catch(() => {
-            counterElement.textContent = '—';
-        });
-}

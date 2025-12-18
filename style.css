@@ -981,17 +981,11 @@ footer p {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
     margin-bottom: 1rem;
-    font-size: 0.875rem;
-    color: var(--text-muted);
 }
 
-.visits-count {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 600;
-    color: var(--accent-blue);
-    letter-spacing: 0.05em;
+.visits-badge {
+    height: 20px;
 }
 
 /* Responsive */
