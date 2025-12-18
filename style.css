@@ -946,6 +946,11 @@ footer p {
         margin: 0 auto;
     }
 
+    .streaming-buttons .cta-button:nth-child(odd),
+    .streaming-buttons .cta-button:nth-child(even) {
+        justify-self: center;
+    }
+
     .cta-button {
         padding: 0.875rem;
         font-size: 1rem;
