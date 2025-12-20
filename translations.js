@@ -24,6 +24,8 @@ const translations = {
         newRelease: "New Release",
         outNow: "Out Now",
         albumLabel: "Album",
+        preparing: "Preparing",
+        prepText: "Radek is playing Extreme",
 
         // Guitar Rig
         guitarRig: "Guitar Rig",
@@ -99,6 +101,8 @@ const translations = {
         newRelease: "Novinka",
         outNow: "Právě vyšlo",
         albumLabel: "Album",
+        preparing: "Připravuji",
+        prepText: "Radek hraje Extreme",
 
         // Guitar Rig
         guitarRig: "Kytarová výbava",
