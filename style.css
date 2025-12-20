@@ -168,6 +168,11 @@ body {
     border-color: rgba(150, 150, 150, 0.3);
 }
 
+.release-section-prep {
+    background: rgba(255, 153, 0, 0.1);
+    border-color: rgba(255, 153, 0, 0.3);
+}
+
 .section-badge {
     display: inline-block;
     padding: 0.35rem 1rem;
@@ -201,6 +206,17 @@ body {
     color: var(--text-light);
 }
 
+.badge-prep {
+    background: linear-gradient(135deg, #FF9900, #FFB347);
+    color: #000;
+}
+
+.prep-text {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin: 0;
+}
+
 .section-title {
     font-family: 'Oswald', sans-serif;
     font-size: clamp(1.25rem, 4vw, 2rem);
@@ -227,13 +243,21 @@ body {
     .hero-columns {
         display: flex;
         gap: 2rem;
-        align-items: flex-start;
+        align-items: stretch;
         width: 100%;
     }
 
     .hero-column-left {
         flex: 1;
         min-width: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-column-left .release-section {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
     }
 
     .hero-column-right {
@@ -250,8 +274,13 @@ body {
     }
 
     .hero-column-right .release-section-out,
-    .hero-column-right .release-section-soon {
+    .hero-column-right .release-section-soon,
+    .hero-column-right .release-section-prep {
         margin: 0;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
