@@ -211,10 +211,15 @@ body {
     color: #000;
 }
 
-.prep-text {
+.prep-link {
     font-size: 1rem;
-    color: var(--text-muted);
-    margin: 0;
+    color: var(--text-light);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.prep-link:hover {
+    color: #FF9900;
 }
 
 .section-title {
