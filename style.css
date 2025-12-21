@@ -156,6 +156,8 @@ body {
 .release-section-new {
     background: rgba(29, 185, 84, 0.1);
     border-color: rgba(29, 185, 84, 0.4);
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .release-section-out {
@@ -246,6 +248,7 @@ body {
 }
 
 .spotify-embed {
+    width: 100%;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -293,6 +296,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 }
 
