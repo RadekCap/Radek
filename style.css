@@ -156,6 +156,8 @@ body {
 .release-section-new {
     background: rgba(29, 185, 84, 0.1);
     border-color: rgba(29, 185, 84, 0.4);
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .release-section-out {
