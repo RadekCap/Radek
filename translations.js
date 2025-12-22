@@ -7,6 +7,7 @@ const translations = {
         ogDescription: "Original instrumental rock music. Rock Majesty out now, One Beautiful Day in Litomyšl coming soon.",
 
         // Hero
+        streamEverywhere: "Listen Everywhere",
         releaseInfo: "Out Now | Available on 23 platforms",
         ctaSpotify: "Spotify",
         ctaYTMusic: "YouTube Music",
@@ -89,6 +90,7 @@ const translations = {
         ogDescription: "Originální instrumentální rocková hudba. Rock Majesty právě vyšlo, One Beautiful Day in Litomyšl již brzy.",
 
         // Hero
+        streamEverywhere: "Poslouchej všude",
         releaseInfo: "Právě vyšlo | K dispozici na 23 platformách",
         ctaSpotify: "Spotify",
         ctaYTMusic: "YouTube Music",
