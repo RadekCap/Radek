@@ -350,6 +350,13 @@ body {
     margin-bottom: 1rem;
 }
 
+.release-subtitle {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: var(--text-muted);
+    margin: 0.25rem 0 0.75rem 0;
+}
+
 .spotify-embed {
     width: 100%;
     max-width: 100%;

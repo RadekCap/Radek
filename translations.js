@@ -27,6 +27,8 @@ const translations = {
         albumLabel: "Album",
         preparing: "Preparing",
         prepText: "Radek is playing Extreme",
+        subtitleOneBeautifulDay: "With an enchanting and gorgeous woman.",
+        subtitleRockMajesty: "A tribute to rock and rock guitar.",
 
         // Guitar Rig
         guitarRig: "Guitar Rig",
@@ -110,6 +112,8 @@ const translations = {
         albumLabel: "Album",
         preparing: "Připravuji",
         prepText: "Radek hraje Extreme",
+        subtitleOneBeautifulDay: "S okouzlující a nádhernou ženou.",
+        subtitleRockMajesty: "Pocta rocku a rockové kytaře.",
 
         // Guitar Rig
         guitarRig: "Kytarová výbava",
