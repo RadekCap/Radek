@@ -167,8 +167,17 @@ const translations = {
     }
 };
 
-// Initialize language from localStorage or default to English
-let currentLang = localStorage.getItem('lang') || 'en';
+// Get language from URL parameter, localStorage, or default to English
+function getInitialLanguage() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const urlLang = urlParams.get('lang');
+    if (urlLang === 'en' || urlLang === 'cs') {
+        return urlLang;
+    }
+    return localStorage.getItem('lang') || 'en';
+}
+
+let currentLang = getInitialLanguage();
 
 // Apply translations to the page
 function applyTranslations(lang) {
