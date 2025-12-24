@@ -1,9 +1,9 @@
 const translations = {
     en: {
         // Meta
-        pageTitle: "Radek",
+        pageTitle: "Radek - Official Artist Page",
         metaDescription: "Radek - Original instrumental rock music. Rock Majesty and One Beautiful Day in Litomyšl out now.",
-        ogTitle: "Radek",
+        ogTitle: "Radek - Official Artist Page",
         ogDescription: "Original instrumental rock music. Rock Majesty and One Beautiful Day in Litomyšl out now.",
 
         // Hero
@@ -86,9 +86,9 @@ const translations = {
     },
     cs: {
         // Meta
-        pageTitle: "Radek",
+        pageTitle: "Radek - Oficiální stránka umělce",
         metaDescription: "Radek - Originální instrumentální rocková hudba. Rock Majesty a One Beautiful Day in Litomyšl právě vyšlo.",
-        ogTitle: "Radek",
+        ogTitle: "Radek - Oficiální stránka umělce",
         ogDescription: "Originální instrumentální rocková hudba. Rock Majesty a One Beautiful Day in Litomyšl právě vyšlo.",
 
         // Hero
