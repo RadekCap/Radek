@@ -226,6 +226,19 @@ body {
     box-shadow: 0 4px 15px rgba(255, 255, 255, 0.4);
 }
 
+.stream-link-disabled {
+    background: rgba(128, 128, 128, 0.3) !important;
+    opacity: 0.5;
+    cursor: default;
+    border-color: rgba(128, 128, 128, 0.3);
+}
+
+.stream-link-disabled:hover {
+    transform: none;
+    box-shadow: none;
+    background: rgba(128, 128, 128, 0.3) !important;
+}
+
 .song-title {
     font-family: 'Oswald', sans-serif;
     font-size: clamp(1.5rem, 5vw, 3rem);
