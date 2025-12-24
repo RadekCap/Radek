@@ -239,6 +239,42 @@ body {
     background: rgba(128, 128, 128, 0.3) !important;
 }
 
+/* Muted stream links - gray by default, colorful on hover */
+.stream-links-muted .stream-link {
+    background: rgba(128, 128, 128, 0.4);
+}
+
+.stream-links-muted .stream-spotify:hover {
+    background: #1DB954;
+    box-shadow: 0 4px 15px rgba(29, 185, 84, 0.6);
+}
+
+.stream-links-muted .stream-ytmusic:hover {
+    background: #FF0000;
+    box-shadow: 0 4px 15px rgba(255, 0, 0, 0.6);
+}
+
+.stream-links-muted .stream-apple:hover {
+    background: linear-gradient(45deg, #FA233B, #FB5C74);
+    box-shadow: 0 4px 15px rgba(250, 35, 59, 0.6);
+}
+
+.stream-links-muted .stream-amazon:hover {
+    background: #FF9900;
+    box-shadow: 0 4px 15px rgba(255, 153, 0, 0.6);
+}
+
+.stream-links-muted .stream-deezer:hover {
+    background: #A238FF;
+    box-shadow: 0 4px 15px rgba(162, 56, 255, 0.6);
+}
+
+.stream-links-muted .stream-tidal:hover {
+    background: #000000;
+    border-color: #ffffff;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.4);
+}
+
 .song-title {
     font-family: 'Oswald', sans-serif;
     font-size: clamp(1.5rem, 5vw, 3rem);
