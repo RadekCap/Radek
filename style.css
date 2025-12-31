@@ -1053,6 +1053,99 @@ body {
     height: 18px;
 }
 
+/* Tracklist Grid */
+.tracklist-status {
+    color: var(--accent-gold);
+    font-style: italic;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+}
+
+.tracklist-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.track-item {
+    width: calc(33.333% - 0.35rem);
+    min-width: 100px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.75rem;
+    border-radius: 4px;
+    border: 1px solid rgba(70, 147, 255, 0.2);
+    background: rgba(0, 20, 50, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+}
+
+.track-item .track-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.track-item .track-duration {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    font-family: monospace;
+}
+
+/* Track states */
+.track-item.track-pending {
+    opacity: 0.5;
+}
+
+.track-item.track-in-progress {
+    border-color: var(--accent-gold);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+    animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.track-item.track-completed {
+    border-color: #4CAF50;
+    background: rgba(76, 175, 80, 0.1);
+}
+
+.track-item.track-completed::after {
+    content: "";
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 16px;
+    height: 16px;
+    background: #4CAF50;
+    border-radius: 50%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z'/%3E%3C/svg%3E");
+    background-size: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.track-item.track-completed {
+    position: relative;
+}
+
+@keyframes pulse-glow {
+    0%, 100% {
+        box-shadow: 0 0 15px rgba(212, 175, 55, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 25px rgba(212, 175, 55, 0.5);
+    }
+}
+
+.track-item:hover {
+    transform: scale(1.02);
+}
+
 /* Hiatus styling */
 .timeline-hiatus .timeline-content {
     opacity: 0.7;
@@ -1155,5 +1248,18 @@ footer p {
 
     .media-link {
         justify-content: center;
+    }
+
+    .track-item {
+        width: calc(50% - 0.25rem);
+        height: 100px;
+    }
+
+    .track-item .track-name {
+        font-size: 0.75rem;
+    }
+
+    .track-item .track-duration {
+        font-size: 0.7rem;
     }
 }
