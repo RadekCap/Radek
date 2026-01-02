@@ -79,7 +79,7 @@ const translations = {
         extremeDate: "PRESENT",
         extremeTitle: "Playing Extreme",
         extremeDesc: "When Extreme released Pornograffitti in 1990, it struck me like a bolt from the blue. I was already holding a guitar in my hands, but this album felt as though it arrived from another world. Its sound opened a door I didn't yet know how to walk through, and it quietly set the course of my future as a guitarist. The songs were fiercely demanding, far beyond what I could play at the time, yet they became a distant summit rather than an obstacle. I promised myself I would return to them one day. Years later, that day has come. I am now slowly shaping my abilities, polishing patience and precision, step by step, note by note. The journey will end in recording these songs, as a tribute to the album that changed everything. At its heart stands Nuno Bettencourt, whose guitar voice became my lifelong compass — so much so that I now play the same guitar, chasing echoes of the sound that first lit the spark.",
-        tracklistStatus: "Currently learning: Decadence Dance",
+        tracklistStatus: "Currently learning: Decadence Dance – figuring out how NOT to cause copyright infringement",
 
         // Footer
         totalVisits: "Total visits:",
@@ -165,7 +165,7 @@ const translations = {
         extremeDate: "SOUČASNOST",
         extremeTitle: "Hraji Extreme",
         extremeDesc: "Když v roce 1990 vyšlo album Pornograffitti od Extreme, zasáhlo mě jako blesk z čistého nebe. Už jsem sice držel kytaru v rukou, ale tahle deska jako by přišla z jiného světa. Její zvuk otevřel dveře, kterými jsem ještě neuměl projít, a potichu určil směr mé budoucnosti jako kytaristy. Skladby byly nesmírně náročné, daleko za hranicemi mých tehdejších možností, přesto se staly vzdáleným vrcholem, nikoli překážkou. Slíbil jsem si, že se k nim jednou vrátím. Po letech ten den nastal. Nyní pomalu piluji svůj kytarový um, trpělivost a přesnost, krok za krokem, notu za notou. Cesta skončí nahráním těchto skladeb jako pocta albu, které změnilo vše. V jeho srdci stojí Nuno Bettencourt, jehož kytarový hlas se stal mým celoživotním kompasem — natolik, že nyní hraji na stejnou kytaru a hledám tajemství zvuku, který poprvé zažehl jiskru.",
-        tracklistStatus: "Právě se učím: Decadence Dance",
+        tracklistStatus: "Právě se učím: Decadence Dance – snažím se přijít na to, jak NEZPŮSOBIT porušení autorských práv",
 
         // Footer
         totalVisits: "Celkem návštěv:",
