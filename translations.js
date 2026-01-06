@@ -65,7 +65,7 @@ const translations = {
 
         // Timeline - Meadow Street
         msTitle: "Meadow Street",
-        msDesc: "Continuing the comeback with a new band and new energy.",
+        msDesc: "Even a wrong path leads to the destination.",
         msEvent1: "Drásovské kulturní léto",
         msEvent2: "Dačice",
 
@@ -151,7 +151,7 @@ const translations = {
 
         // Timeline - Meadow Street
         msTitle: "Meadow Street",
-        msDesc: "Pokračování comebacku s novou kapelou, novou energií.",
+        msDesc: "I scestí vede k cíli.",
         msEvent1: "Drásovské kulturní léto",
         msEvent2: "Dačice",
 
