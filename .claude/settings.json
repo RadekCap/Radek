@@ -1,0 +1,13 @@
+{
+  "model": "claude-opus-4-5@20251101",
+  "mcpServers": {
+    "kubernetes": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-kubernetes"]
+    },
+    "azure": {
+      "command": "npx",
+      "args": ["-y", "@azure/mcp-server"]
+    }
+  }
+}
