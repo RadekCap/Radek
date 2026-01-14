@@ -314,11 +314,6 @@ body {
     border-color: rgba(70, 147, 255, 0.3);
 }
 
-.release-section-prep {
-    background: rgba(255, 153, 0, 0.1);
-    border-color: rgba(255, 153, 0, 0.3);
-}
-
 .section-badge {
     display: inline-block;
     padding: 0.35rem 1rem;
@@ -345,29 +340,6 @@ body {
 .badge-out {
     background: var(--primary-blue);
     color: #fff;
-}
-
-.badge-prep {
-    background: linear-gradient(135deg, #FF9900, #FFB347);
-    color: #000;
-}
-
-.prep-link {
-    font-size: 1rem;
-    color: var(--text-light);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.prep-link:hover {
-    color: #FF9900;
-}
-
-.release-section-prep {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
 }
 
 .section-title {
@@ -444,8 +416,7 @@ body {
         margin: 0;
     }
 
-    .hero-column-left .release-section-out,
-    .hero-column-left .release-section-prep {
+    .hero-column-left .release-section-out {
         margin: 0;
         flex: 1;
         display: flex;
