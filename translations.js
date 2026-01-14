@@ -117,11 +117,11 @@ const translations = {
         theJourney: "Příběh",
 
         // Timeline - Light in the Darkness
-        litdTitle: "Světlo ve tmě",
+        litdTitle: "Light in the Darkness",
         litdDesc: "Začátek hudební cesty. První kroky na pódiu jako kytarista.",
         litdEvent1: "Terč - předkapela Memory of Jesus",
         litdEvent2: "Golf club",
-        litdNote: "Skladby na tomto albu vznikly jako dema nahraná koncem 90. let s kapelou Světlo ve tmě. V roce 2025 jsem se k těmto nahrávkám vrátil, přestavěl je od základů a dokončil s novými texty a vokály. Jejich oživení bylo jako otevřít starou bundu a najít v záhybu ukrytou galaxii. Velké díky Víťovi a Michalovi, kteří se podíleli na původních demech a laskavě souhlasili s jejich použitím a přeměnou v toto album.",
+        litdNote: "Skladby na tomto albu vznikly jako dema nahraná koncem 90. let s kapelou Light in the Darkness. V roce 2025 jsem se k těmto nahrávkám vrátil, přestavěl je od základů a dokončil s novými texty a vokály. Jejich oživení bylo jako otevřít starou bundu a najít v záhybu ukrytou galaxii. Velké díky Víťovi a Michalovi, kteří se podíleli na původních demech a laskavě souhlasili s jejich použitím a přeměnou v toto album.",
 
         // Timeline - The Alfa Beat
         alfabeatTitle: "The Alfa Beat",
