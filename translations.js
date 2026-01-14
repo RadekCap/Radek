@@ -176,7 +176,7 @@ function getInitialLanguage() {
     if (urlLang === 'en' || urlLang === 'cs') {
         return urlLang;
     }
-    return localStorage.getItem('lang') || 'en';
+    return localStorage.getItem('lang') || 'cs';
 }
 
 let currentLang = getInitialLanguage();
