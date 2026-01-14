@@ -25,8 +25,6 @@ const translations = {
         newRelease: "New Release",
         outNow: "Out Now",
         albumLabel: "Album",
-        preparing: "Preparing",
-        prepText: "Radek recorded Extreme II for himself",
         subtitleOneBeautifulDay: "With an enchanting and gorgeous woman.",
         subtitleRockMajesty: "A tribute to rock music and rock guitar.",
 
@@ -109,8 +107,6 @@ const translations = {
         newRelease: "Novinka",
         outNow: "Právě vyšlo",
         albumLabel: "Album",
-        preparing: "Připravuji",
-        prepText: "Radek si nahrál Extreme II pro sebe",
         subtitleOneBeautifulDay: "S okouzlující a nádhernou ženou.",
         subtitleRockMajesty: "Pocta rockové hudbě a rockové kytaře.",
 
