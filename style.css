@@ -738,7 +738,7 @@ body {
 
 .gear-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
     max-width: 1200px;
     margin: 0 auto;
@@ -782,40 +782,24 @@ body {
     letter-spacing: 0.05em;
 }
 
-/* Sold gear styling */
-.gear-sold .gear-image-container {
-    position: relative;
-    border-style: dashed;
-}
-
-.gear-sold .gear-image {
-    filter: grayscale(100%);
-    opacity: 0.6;
-}
-
-.gear-sold:hover .gear-image {
-    transform: none;
-}
-
-.gear-sold-badge {
-    position: absolute;
-    top: 0.5rem;
-    right: 0.5rem;
-    z-index: 1;
-    padding: 0.25rem 0.6rem;
-    background: rgba(0, 0, 0, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 4px;
+/* Former Gear subsection */
+.former-gear-title {
     font-family: 'Oswald', sans-serif;
-    font-size: 0.75rem;
+    font-size: 1.25rem;
     font-weight: 600;
-    color: var(--text-light);
+    text-align: center;
+    margin: 2.5rem 0 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
-.gear-sold .gear-name a {
-    opacity: 0.5;
+.former-gear-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    max-width: 240px;
+    margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
