@@ -795,11 +795,12 @@ body {
 }
 
 .former-gear-grid {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1.5rem;
-    max-width: 240px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.former-gear-grid .gear-item {
+    width: 200px;
 }
 
 @media (max-width: 1024px) {
