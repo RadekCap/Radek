@@ -782,6 +782,42 @@ body {
     letter-spacing: 0.05em;
 }
 
+/* Sold gear styling */
+.gear-sold .gear-image-container {
+    position: relative;
+    border-style: dashed;
+}
+
+.gear-sold .gear-image {
+    filter: grayscale(100%);
+    opacity: 0.6;
+}
+
+.gear-sold:hover .gear-image {
+    transform: none;
+}
+
+.gear-sold-badge {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    z-index: 1;
+    padding: 0.25rem 0.6rem;
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.gear-sold .gear-name a {
+    opacity: 0.5;
+}
+
 @media (max-width: 1024px) {
     .gear-grid {
         grid-template-columns: repeat(3, 1fr);

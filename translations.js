@@ -30,6 +30,7 @@ const translations = {
 
         // Guitar Rig
         guitarRig: "Guitar Rig",
+        gearSold: "Sold",
 
         // History
         theJourney: "The Journey",
@@ -112,6 +113,7 @@ const translations = {
 
         // Guitar Rig
         guitarRig: "Kytarová výbava",
+        gearSold: "Prodáno",
 
         // History
         theJourney: "Příběh",
