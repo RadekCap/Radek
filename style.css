@@ -797,6 +797,7 @@ body {
 .former-gear-grid {
     display: flex;
     justify-content: center;
+    gap: 1.5rem;
 }
 
 .former-gear-grid .gear-item {
