@@ -804,6 +804,10 @@ body {
     width: 200px;
 }
 
+.former-gear-grid .gear-image {
+    object-fit: contain;
+}
+
 @media (max-width: 1024px) {
     .gear-grid {
         grid-template-columns: repeat(3, 1fr);
