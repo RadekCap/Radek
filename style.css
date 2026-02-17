@@ -751,8 +751,6 @@ body {
 
 .signature-gear-main-img {
     width: 100%;
-    aspect-ratio: 4 / 3;
-    overflow: hidden;
     border-radius: 8px;
     border: 2px solid rgba(218, 165, 32, 0.3);
     background: rgba(10, 10, 10, 0.6);
@@ -761,8 +759,8 @@ body {
 
 .signature-gear-main-img img {
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    display: block;
+    border-radius: 6px;
     transition: opacity 0.3s ease;
 }
 
