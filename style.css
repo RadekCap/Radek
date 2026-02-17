@@ -934,6 +934,7 @@ body {
 
 .former-gear-grid {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
 }
