@@ -718,6 +718,171 @@ body {
     height: 20px;
 }
 
+/* Signature Gear Section */
+.signature-gear-section {
+    padding: 3rem 2rem 4rem;
+    background: var(--bg-darker);
+    border-top: 2px solid rgba(218, 165, 32, 0.4);
+}
+
+.signature-gear-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    color: #daa520;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.signature-gear-content {
+    display: flex;
+    gap: 3rem;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: flex-start;
+}
+
+.signature-gear-carousel {
+    flex: 1;
+    max-width: 500px;
+}
+
+.signature-gear-main-img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px solid rgba(218, 165, 32, 0.3);
+    background: rgba(10, 10, 10, 0.6);
+    margin-bottom: 0.75rem;
+}
+
+.signature-gear-main-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.signature-gear-thumbnails {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.signature-gear-thumb {
+    width: 80px;
+    height: 60px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.signature-gear-thumb:hover {
+    border-color: rgba(218, 165, 32, 0.6);
+}
+
+.signature-gear-thumb.active {
+    border-color: #daa520;
+}
+
+.signature-gear-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.signature-gear-info {
+    flex: 0 0 280px;
+    padding-top: 0.5rem;
+}
+
+.one-of-a-kind-badge {
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #daa520;
+    border: 1px solid rgba(218, 165, 32, 0.5);
+    border-radius: 3px;
+    padding: 0.25rem 0.75rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 12px rgba(218, 165, 32, 0.15);
+}
+
+.signature-gear-name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--text-light);
+    margin-bottom: 1.25rem;
+    letter-spacing: 0.05em;
+}
+
+.signature-gear-specs {
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    color: var(--text-muted);
+    line-height: 1.8;
+}
+
+.signature-gear-specs .spec-label {
+    color: rgba(218, 165, 32, 0.7);
+    font-weight: 600;
+    margin-right: 0.25rem;
+}
+
+.signature-gear-specs a {
+    color: var(--text-muted);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.signature-gear-specs a:hover {
+    color: #daa520;
+}
+
+@media (max-width: 768px) {
+    .signature-gear-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .signature-gear-carousel {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .signature-gear-info {
+        flex: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+    .signature-gear-title {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .signature-gear-section {
+        padding: 2rem 1rem 3rem;
+    }
+
+    .signature-gear-thumb {
+        width: 60px;
+        height: 45px;
+    }
+}
+
 /* Guitar Rig Section */
 .gear-section {
     padding: 2rem 2rem 4rem;
