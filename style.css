@@ -718,19 +718,20 @@ body {
     height: 20px;
 }
 
-/* Signature Gear Section */
-.signature-gear-section {
-    padding: 3rem 2rem 4rem;
-    background: var(--bg-darker);
+/* Signature Gear Subsection */
+.signature-gear-subsection {
+    margin: 3rem auto 0;
+    max-width: 1200px;
+    padding-top: 2.5rem;
     border-top: 2px solid rgba(218, 165, 32, 0.4);
 }
 
 .signature-gear-title {
     font-family: 'Oswald', sans-serif;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     color: #daa520;
     text-transform: uppercase;
     letter-spacing: 0.1em;
