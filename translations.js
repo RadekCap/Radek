@@ -116,7 +116,7 @@ const translations = {
         subtitleRockMajesty: "Pocta rockové hudbě a rockové kytaře.",
 
         // Signature Gear
-        signatureGear: "Signatura",
+        signatureGear: "Unikátní kousek",
         oneOfAKind: "Jediný na světě",
 
         // Guitar Rig
