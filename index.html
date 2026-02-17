@@ -291,6 +291,38 @@
             </div>
         </section>
 
+        <section class="signature-gear-section">
+            <h2 class="signature-gear-title" data-i18n="signatureGear">Signature Gear</h2>
+            <div class="signature-gear-content">
+                <div class="signature-gear-carousel">
+                    <div class="signature-gear-main-img">
+                        <img id="signature-main-img" src="images/gear/nuno-drive-1.jpg" alt="Nuno Drive">
+                    </div>
+                    <div class="signature-gear-thumbnails">
+                        <div class="signature-gear-thumb active" onclick="showSignatureImage(0)">
+                            <img src="images/gear/nuno-drive-1.jpg" alt="Nuno Drive - Photo 1">
+                        </div>
+                        <div class="signature-gear-thumb" onclick="showSignatureImage(1)">
+                            <img src="images/gear/nuno-drive-2.jpg" alt="Nuno Drive - Photo 2">
+                        </div>
+                        <div class="signature-gear-thumb" onclick="showSignatureImage(2)">
+                            <img src="images/gear/nuno-drive-3.jpg" alt="Nuno Drive - Photo 3">
+                        </div>
+                    </div>
+                </div>
+                <div class="signature-gear-info">
+                    <span class="one-of-a-kind-badge" data-i18n="oneOfAKind">One of a Kind</span>
+                    <h3 class="signature-gear-name">Nuno Drive</h3>
+                    <ul class="signature-gear-specs">
+                        <li><span class="spec-label">S/N:</span> DKD-002</li>
+                        <li><span class="spec-label">Made in</span> Brno</li>
+                        <li><span class="spec-label">for</span> Radek</li>
+                        <li><span class="spec-label">by</span> <a href="https://www.instagram.com/elvisalivetone" target="_blank" rel="noopener">Elvis Alive</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
         <section class="gear-section">
             <h2 class="gear-title" data-i18n="guitarRig">Guitar Rig</h2>
             <div class="gear-grid">
@@ -385,5 +417,38 @@
     </main>
 
     <script src="translations.js"></script>
+    <script>
+        // Signature Gear Carousel
+        const signatureImages = [
+            'images/gear/nuno-drive-1.jpg',
+            'images/gear/nuno-drive-2.jpg',
+            'images/gear/nuno-drive-3.jpg'
+        ];
+        let signatureIndex = 0;
+        let signatureInterval;
+
+        function showSignatureImage(index) {
+            signatureIndex = index;
+            document.getElementById('signature-main-img').src = signatureImages[index];
+            document.querySelectorAll('.signature-gear-thumb').forEach((thumb, i) => {
+                thumb.classList.toggle('active', i === index);
+            });
+        }
+
+        function startSignatureRotation() {
+            signatureInterval = setInterval(() => {
+                showSignatureImage((signatureIndex + 1) % signatureImages.length);
+            }, 4000);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const carousel = document.querySelector('.signature-gear-carousel');
+            if (carousel) {
+                startSignatureRotation();
+                carousel.addEventListener('mouseenter', () => clearInterval(signatureInterval));
+                carousel.addEventListener('mouseleave', startSignatureRotation);
+            }
+        });
+    </script>
 </body>
 </html>

@@ -28,6 +28,10 @@ const translations = {
         subtitleOneBeautifulDay: "With an enchanting and gorgeous woman.",
         subtitleRockMajesty: "A tribute to rock music and rock guitar.",
 
+        // Signature Gear
+        signatureGear: "Signature Gear",
+        oneOfAKind: "One of a Kind",
+
         // Guitar Rig
         guitarRig: "Guitar Rig",
         formerGear: "Former Gear",
@@ -110,6 +114,10 @@ const translations = {
         albumLabel: "Album",
         subtitleOneBeautifulDay: "S okouzlující a nádhernou ženou.",
         subtitleRockMajesty: "Pocta rockové hudbě a rockové kytaře.",
+
+        // Signature Gear
+        signatureGear: "Signatura",
+        oneOfAKind: "Jediný na světě",
 
         // Guitar Rig
         guitarRig: "Kytarová výbava",
