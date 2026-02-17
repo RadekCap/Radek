@@ -720,9 +720,10 @@ body {
 
 /* Signature Gear Subsection */
 .signature-gear-subsection {
-    margin: 3rem auto 0;
+    margin: 0 auto;
     max-width: 1200px;
-    padding-top: 2.5rem;
+    padding-top: 3rem;
+    margin-top: 4rem;
     border-top: 2px solid rgba(218, 165, 32, 0.4);
 }
 
