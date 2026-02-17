@@ -738,65 +738,39 @@ body {
 
 .signature-gear-content {
     display: flex;
-    gap: 3rem;
-    max-width: 900px;
+    gap: 2.5rem;
+    max-width: 1200px;
     margin: 0 auto;
-    align-items: flex-start;
+    align-items: center;
 }
 
-.signature-gear-carousel {
+.signature-gear-gallery {
+    display: flex;
+    gap: 1rem;
     flex: 1;
-    max-width: 500px;
 }
 
-.signature-gear-main-img {
-    width: 100%;
+.signature-gear-photo {
+    flex: 1;
     border-radius: 8px;
+    overflow: hidden;
     border: 2px solid rgba(218, 165, 32, 0.3);
     background: rgba(10, 10, 10, 0.6);
-    margin-bottom: 0.75rem;
-}
-
-.signature-gear-main-img img {
-    width: 100%;
-    display: block;
-    border-radius: 6px;
-    transition: opacity 0.3s ease;
-}
-
-.signature-gear-thumbnails {
-    display: flex;
-    gap: 0.5rem;
-    justify-content: center;
-}
-
-.signature-gear-thumb {
-    width: 80px;
-    height: 60px;
-    border-radius: 4px;
-    overflow: hidden;
-    border: 2px solid rgba(255, 255, 255, 0.15);
-    cursor: pointer;
     transition: border-color 0.3s ease;
 }
 
-.signature-gear-thumb:hover {
+.signature-gear-photo:hover {
     border-color: rgba(218, 165, 32, 0.6);
 }
 
-.signature-gear-thumb.active {
-    border-color: #daa520;
-}
-
-.signature-gear-thumb img {
+.signature-gear-photo img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    display: block;
+    border-radius: 6px;
 }
 
 .signature-gear-info {
-    flex: 0 0 280px;
-    padding-top: 0.5rem;
+    flex: 0 0 250px;
 }
 
 .one-of-a-kind-badge {
@@ -847,14 +821,13 @@ body {
     color: #daa520;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .signature-gear-content {
         flex-direction: column;
         align-items: center;
     }
 
-    .signature-gear-carousel {
-        max-width: 100%;
+    .signature-gear-gallery {
         width: 100%;
     }
 
@@ -862,7 +835,6 @@ body {
         flex: none;
         width: 100%;
         text-align: center;
-        padding-top: 1rem;
     }
 
     .signature-gear-title {
@@ -875,9 +847,8 @@ body {
         padding: 2rem 1rem 3rem;
     }
 
-    .signature-gear-thumb {
-        width: 60px;
-        height: 45px;
+    .signature-gear-gallery {
+        flex-direction: column;
     }
 }
 
