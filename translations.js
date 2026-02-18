@@ -84,7 +84,7 @@ const translations = {
         extremeDesc: "When Extreme released Pornograffitti in 1990, it struck me like a bolt from the blue. I was already holding a guitar in my hands, but this album felt as though it arrived from another world. Its sound opened a door I didn't yet know how to walk through, and it quietly set the course of my future as a guitarist. The songs were fiercely demanding, far beyond what I could play at the time, yet they became a distant summit rather than an obstacle. I promised myself I would return to them one day. Years later, that day came. I shaped my abilities, polished patience and precision, step by step, note by note. My dream was to record these songs and release them on YouTube as a tribute to the album that changed everything.<br><br>Reality had other plans — copyright belongs to band members, lyricists, mixers, producers, and more. Even my original idea of extracting the guitar parts, re-recording them myself, and releasing them publicly—even for free and without monetization—proved impossible.<br><br>But I did it anyway, in Logic Pro, just for myself. The tribute lives on in private — a personal victory, a circle finally closed. At its heart stands Nuno Bettencourt, whose guitar voice became my lifelong compass — so much so that I now play the same guitar, chasing echoes of the sound that first lit the spark.",
         // Footer
         totalVisits: "Total visits:",
-        copyright: "© 2025 Radek. All rights reserved."
+        copyright: "© 2026 Radek. All rights reserved."
     },
     cs: {
         // Meta
@@ -171,7 +171,7 @@ const translations = {
         extremeDesc: "Když v roce 1990 vyšlo album Pornograffitti od Extreme, zasáhlo mě jako blesk z čistého nebe. Už jsem sice držel kytaru v rukou, ale tahle deska jako by přišla z jiného světa. Její zvuk otevřel dveře, kterými jsem ještě neuměl projít, a potichu určil směr mé budoucnosti jako kytaristy. Skladby byly nesmírně náročné, daleko za hranicemi mých tehdejších možností, přesto se staly vzdáleným vrcholem, nikoli překážkou. Slíbil jsem si, že se k nim jednou vrátím. Po letech ten den nastal. Piloval jsem svůj um, trpělivost a přesnost, krok za krokem, notu za notou. Mým snem bylo tyto skladby nahrát a zveřejnit na YouTube jako poctu albu, které změnilo vše.<br><br>Realita měla jiné plány — autorská práva patří členům kapely, textařům, zvukařům, producentům a dalším. Ani můj původní nápad extrahovat kytarové party, nahrát je sám a zveřejnit—byť zdarma a bez monetizace—se neukázal jako možný.<br><br>Ale stejně jsem to udělal, v Logic Pro, jen pro sebe. Pocta žije dál v soukromí — osobní vítězství, konečně uzavřený kruh. V jeho srdci stojí Nuno Bettencourt, jehož kytarový hlas se stal mým celoživotním kompasem — natolik, že nyní hraji na stejnou kytaru a hledám ozvěny zvuku, který poprvé zažehl jiskru.",
         // Footer
         totalVisits: "Celkem návštěv:",
-        copyright: "© 2025 Radek. Všechna práva vyhrazena."
+        copyright: "© 2026 Radek. Všechna práva vyhrazena."
     }
 };
 
