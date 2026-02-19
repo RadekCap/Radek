@@ -1306,12 +1306,14 @@ footer p {
     color: var(--text-muted);
 }
 
-/* Visits Counter */
+/* Visits Counter - hidden but still counting */
 .visits-counter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .visits-badge {
