@@ -1,13 +1,23 @@
 {
-  "model": "claude-opus-4-5@20251101",
+  "model": "claude-sonnet-4-6",
   "mcpServers": {
     "kubernetes": {
       "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-kubernetes"]
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-kubernetes"
+      ]
     },
     "azure": {
       "command": "npx",
-      "args": ["-y", "@azure/mcp-server"]
+      "args": [
+        "-y",
+        "@azure/mcp-server"
+      ]
     }
+  },
+  "statusLine": {
+    "type": "command",
+    "command": ".claude/statusline.sh"
   }
 }
