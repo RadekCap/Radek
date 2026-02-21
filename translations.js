@@ -24,7 +24,7 @@ const translations = {
         // Release Sections
         newRelease: "New Release",
         outNow: "Out Now",
-        albumLabel: "Album",
+        albumLabel: "Nostalgia EP",
         subtitleOneBeautifulDay: "With an enchanting and gorgeous woman.",
         subtitleRockMajesty: "A tribute to rock music and rock guitar.",
 
@@ -111,7 +111,7 @@ const translations = {
         // Release Sections
         newRelease: "Novinka",
         outNow: "Právě vyšlo",
-        albumLabel: "Album",
+        albumLabel: "Vzpomínkové EP",
         subtitleOneBeautifulDay: "S okouzlující a nádhernou ženou.",
         subtitleRockMajesty: "Pocta rockové hudbě a rockové kytaře.",
 
