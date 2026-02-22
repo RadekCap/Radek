@@ -15,6 +15,7 @@ const translations = {
         ctaAmazon: "Amazon Music",
         ctaDeezer: "Deezer",
         ctaTidal: "Tidal",
+        ctaSoundCloud: "SoundCloud",
 
         // Upcoming
         comingSoon: "Coming Soon",
@@ -102,6 +103,7 @@ const translations = {
         ctaAmazon: "Amazon Music",
         ctaDeezer: "Deezer",
         ctaTidal: "Tidal",
+        ctaSoundCloud: "SoundCloud",
 
         // Upcoming
         comingSoon: "Již brzy",
