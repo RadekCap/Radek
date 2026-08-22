@@ -179,7 +179,7 @@ const translations = {
 
         // Timeline - Backyard Goblins
         backyardTitle: "Backyard Goblins",
-        backyardDesc: "Oslovili mě a přizvali ke spolupráci. Poslechl jsem si jejich repertoár a nahrávky — a zpočátku jsem se rozhodl jít vlastní cestou, dál studovat a hrát sám. Ale někde cestou mi hlavou prošla myšlenka: <em>&#8222;Hej, zkus to — může to být zábava.&#8220;</em> Tak jsem to zkusil. Našel jsem skvělou partu lidí a sdílenou lásku k hudbě. A s ní se vrátil pocit, který jsem dlouho nezažíval — mrazení v zádech z dobře zahrané písničky a nová energie v žilách.",
+        backyardDesc: "Oslovili mě a přizvali ke spolupráci. Poslechl jsem si jejich repertoár a nahrávky — a zpočátku jsem se rozhodl jít vlastní cestou, dál studovat a hrát sám. Ale někde cestou mi hlavou prošla myšlenka: <em>„Hej, zkus to — může to být zábava."</em> Tak jsem to zkusil. Našel jsem skvělou partu lidí a sdílenou lásku k hudbě. A s ní se vrátil pocit, který jsem dlouho nezažíval — mrazení v zádech z dobře zahrané písničky a nová energie v žilách.",
 
         // Footer
         totalVisits: "Celkem návštěv:",
